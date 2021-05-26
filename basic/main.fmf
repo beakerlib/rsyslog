@@ -1,0 +1,11 @@
+summary: basic functions to support rsyslog
+contact: Dalibor Pospíšil <dapospis@redhat.com>
+require:
+- library(distribution/dpcommon)
+- library(distribution/Log)
+- library(libraries/wrapper)
+- url: https://github.com/RedHat-SP-Security/tests.git
+  name: /rsyslog/Library/basic
+- rsyslog
+- patch
+- /usr/sbin/semanage
