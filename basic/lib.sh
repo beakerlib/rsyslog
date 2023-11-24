@@ -50,7 +50,7 @@ This is a wrapper which will download the real library.
 #   should return 0 only when the library is ready to serve.
 
 rsyslogWrapperLibraryLoaded() {
-  LibrariesWrapperImport "https://github.com/RedHat-SP-Security/tests.git" "" "rsyslog/Library/basic"
+  LibrariesWrapperImport "https://github.com/RedHat-SP-Security/rsyslog-tests" "" "Library/basic"
 }
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

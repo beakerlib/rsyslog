@@ -4,8 +4,8 @@ require:
 - library(distribution/dpcommon)
 - library(distribution/Log)
 - library(libraries/wrapper)
-- url: https://github.com/RedHat-SP-Security/tests.git
-  name: /rsyslog/Library/basic
+- url: https://github.com/RedHat-SP-Security/rsyslog-tests
+  name: /Library/basic
 - patch
 - /usr/sbin/semanage
 recommend:
